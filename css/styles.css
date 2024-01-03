@@ -1,4 +1,4 @@
-header, .one {
+header, .one, footer{
     background-color: #1F2937;
 }
 
@@ -51,8 +51,16 @@ h1 {
 }
 
 h2 {
+    margin: 50px;
     text-align: center;
     font-size: 36px;
+}
+
+h3 {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 p {
@@ -67,7 +75,7 @@ button {
     background-color: #3882f6;
     border: none;
     padding: 5px;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .info-images {
@@ -76,6 +84,7 @@ button {
     justify-content: space-between;
 
     display: flex;
+    align-items: flex-start;
 }
 
 .info1, .info2, .info3, .info4 {
@@ -91,4 +100,69 @@ button {
     height: 400px;
     padding: 0px 300px;
     background-color: #E5E7EB;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.three > p:nth-child(1) {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.three > p:nth-child(2) {
+    color: #1F2937;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.four {
+    height: 400px;
+
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.signup {
+    height: 175px;
+    margin: 300px;
+
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 5px;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center
+}
+
+.signup > button {
+    border: solid #F9FAF8;
+    font-size: 20px;
+    border-radius: 10px;
+
+    padding: 10px 50px;
+}
+
+.signup > div > p {
+    color: #E5E7EB;
+    padding-bottom: 0px;
+    margin-bottom: 100px;
+}
+
+footer {
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > p {
+    color: #E5E7EB;
+    font-size: 20px;
 }
