@@ -4,6 +4,18 @@ landing page project from The Odin Project
 
 # Structure
 
+### css/styles.css
+
+- Holds all css for styling the landing page.
+
+### img/
+
+- Holds all images used in the landing page. (All images are stock, and credit is listed below. These are also used solely for practice).
+
+### Index.html
+
+- Holds all html for the landing page.
+
 # Credits
 
 ### Logo
