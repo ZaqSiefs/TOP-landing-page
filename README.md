@@ -1,6 +1,6 @@
 # odin-landing-page
 
-landing page project from The Odin Project
+Landing page project from The Odin Project
 
 # Structure
 
